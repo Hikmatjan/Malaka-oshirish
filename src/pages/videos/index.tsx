@@ -34,6 +34,7 @@ const Videos: FC = () => {
             >
               <div className="flex justify-between cursor-pointer mb-4 w-full hover:text-[46A358]">
                 <p>{String(value?.title)}</p>
+                <span>({value._id})</span>
               </div>
             </div>
           ))}
