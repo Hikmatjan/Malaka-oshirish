@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li button {
+  background-color: #1677ff !important;
+  opacity: 30%;
+}
+.slick-active button {
+  background-color: #1677ff !important;
+}
+.ant-slider-track {
+  border: 2px solid #1677ff;
+}
+.ant-slider .ant-slider-handle::after {
+  box-shadow: 0 0 0 2px #1677ff;
+}
+.ant-slider .ant-slider-handler-1::after:hover {
+  box-shadow: 0 0 0 2px #1677ff;
+}
